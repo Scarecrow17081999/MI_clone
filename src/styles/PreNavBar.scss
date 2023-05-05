@@ -1,0 +1,38 @@
+.preNav {
+  background-color: rgb(29, 28, 28);
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  color: white;
+  text-decoration: none;
+  div a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    color: rgba(180, 180, 180);
+    font-size: 1.1vmax;
+    font-weight: 300;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    margin: 1vmax;
+    &:hover {
+    }
+
+    svg {
+      // border: 1px solid red;
+      fill: antiquewhite;
+      font-size: 0.5rem;
+    }
+  }
+  div {
+    padding: 0vmax 4vmax;
+    display: flex;
+    align-items: center;
+    span {
+      // border: 5px solid red;
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 0.8vmax;
+      font-weight: 100;
+    }
+  }
+}

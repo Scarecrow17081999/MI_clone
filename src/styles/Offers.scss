@@ -1,0 +1,11 @@
+.offerSection {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 2.2rem 3rem auto;
+  div {
+    img:hover {
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+  }
+}

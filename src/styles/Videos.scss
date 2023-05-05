@@ -1,0 +1,39 @@
+.videos {
+  display: flex;
+  margin: auto;
+  width: 90%;
+  margin-bottom: 5vmax;
+  overflow: hidden;
+  .videoCard {
+    width: 30vmax;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0.3vmax;
+    a {
+      padding: 2.5vmax;
+      transition: all 240ms;
+      border: none;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.096);
+      color: white;
+
+      svg {
+        fill: white;
+      }
+    }
+    &:hover {
+      a {
+        padding: 2.5vmax;
+        border: none;
+        border-radius: 50%;
+        color: white;
+        background-color: rgba(255, 255, 255, 0.671);
+      }
+    }
+  }
+}

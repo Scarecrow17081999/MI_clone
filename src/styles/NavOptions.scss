@@ -1,0 +1,22 @@
+.navOptions {
+  display: flex;
+  justify-content: space-evenly;
+  background: white;
+  padding: 1rem 0;
+  z-index: 9999;
+}
+
+.navCard {
+  width: 10vmax;
+  text-align: center;
+  cursor: pointer;
+  p {
+    margin: 0;
+  }
+  img {
+    width: 10vmax;
+  }
+  span {
+    color: orangered;
+  }
+}

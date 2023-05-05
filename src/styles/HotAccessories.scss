@@ -1,0 +1,73 @@
+#hotAccessories {
+  display: flex;
+  justify-content: center;
+  width: 95vw;
+  margin: auto;
+
+  > div {
+    margin-left: 1rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+    margin-left: 5rem;
+    // border: 1px solid red;
+  }
+  > div > div:nth-child(1) > img {
+    cursor: pointer;
+    // border: 1px solid rgb(0, 0, 0);
+    height: 100%;
+    // border: 1px solid red;
+    transition: all 240ms;
+    margin-right: 3.1rem;
+    &:hover {
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      transform: translateY(-0.4vmax);
+    }
+  }
+  > div > div:nth-child(2) {
+    max-width: 100%;
+    // border: 1px solid red;
+    display: flex;
+    transition: all 240ms;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    img {
+      width: 100%;
+      // border: 1px solid red;
+      object-fit: cover;
+    }
+    &:hover {
+      //   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+  }
+}
+
+.hotItemCard {
+  // border: 1px solid red;
+  margin: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 30%;
+  transition: all 240ms;
+  text-align: center;
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform: translateY(-0.4vmax);
+  }
+  img {
+    width: 100%;
+  }
+  p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(94, 94, 94);
+    // width: 100%;
+  }
+  span {
+    color: orangered;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: -1vmax 0 1vmax 0;
+  }
+}
